@@ -17,3 +17,9 @@ exports.tampilsemuamahasiswa = function(req, res){
         }
     })
 }
+
+// TODO
+// GET tampilkan data mahasiswa berdasarkan [id]
+// POST tambahkan data mahasiswa
+// PUT mengubah data mahasiswa berdasarkan [id]
+// DELETE menghapus data mahasiswa berdasarkan [id]

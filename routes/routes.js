@@ -12,4 +12,16 @@ module.exports = function(app){
     //endpoint tampil semua mhs
     app.route('/tampil')
         .get(jsonku.tampilsemuamahasiswa);
+    
+    app.route('/tampil/:id')
+        .get(jsonku.tampilberdasarkanid);
+
+    app.route('/tambah')
+        .post(jsonku.tambahMahasiswa);
+
+    app.route('/ubah')
+        .put(jsonku.ubahmahasiswa);
+    
+    app.route('/delete')
+        .delete(jsonku.hapusMahasiswa);
 }
